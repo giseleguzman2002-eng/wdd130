@@ -80,10 +80,11 @@ footer  {
 aside {
     width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 15px;
+    left: 70px;
 }
