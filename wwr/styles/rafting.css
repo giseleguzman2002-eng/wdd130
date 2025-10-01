@@ -31,6 +31,7 @@ h1, h2 {
 nav, p, section, article {
   margin: 16px;
   padding: 8px; 
+  
 }
 
 .socialmedia a {
@@ -60,5 +61,16 @@ h1 {
 .hero article img {
    float: right; 
    width: 125px; 
+
+}
+nav {
+border: 3px clasfied darkcyan
+background-color: steelblue;
+padding: 1rm;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+
+
 
 }
