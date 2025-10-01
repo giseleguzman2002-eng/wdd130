@@ -63,12 +63,12 @@ h1 {
    width: 125px; 
 
 }
-nav {
+header, nav {
 border: 3px clasfied darkcyan
 background-color: steelblue;
 padding: 1rm;
 display:flex;
-flex-direction: row;
+flex-direction: row-reserve;
 justify-content: space-around;
 
 
