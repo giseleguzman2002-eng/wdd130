@@ -69,7 +69,8 @@ background-color: steelblue;
 padding: 1rm;
 display:flex;
 flex-direction: row-reserve;
-justify-content: space-around;
+justify-content: space-between;
+align-items: center
 
 
 
