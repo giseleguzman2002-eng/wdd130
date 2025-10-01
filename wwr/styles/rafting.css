@@ -63,15 +63,15 @@ h1 {
    width: 125px; 
 
 }
-header, nav {
-border: 3px clasfied darkcyan
-background-color: steelblue;
-padding: 1rm;
-display:flex;
-flex-direction: row-reserve;
-justify-content: space-between;
-align-items: center
-
-
+header, nav, ul{
+  border: 3px clasfied darkcyan;
+  background-color: darkturquoise;
+  padding: 1rm;
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+  
 
 }
+
