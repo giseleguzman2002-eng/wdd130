@@ -19,7 +19,7 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  width: 900px;
   margin: 0 auto; 
 }
 
@@ -29,8 +29,8 @@ h1, h2 {
 }
 
 nav, p, section, article {
-  margin: 16px;
-  padding: 8px; 
+  margin: 5px;
+  padding: 10px; 
   
 }
 
@@ -63,21 +63,22 @@ h1 {
    width: 125px; 
 
 }
-header, img,  nav {
-  border: 3px clasfied darkcyan;
+header {
+  border: 10px clasified darkcyan;
   background-color: darkturquoise;
-  padding: 1rm;
+  padding: 1px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  
 
 }
 ul {
   display:grid;
   grid-template-columns: 2fr 4fr 3fr 3fr;
   background-color: seashell;
-  grid-gap: 20px;
+  grid-gap: 30px;
   padding: 10px;
   text-align: center;
   border: 10px;
@@ -86,7 +87,7 @@ ul {
 article {
 display:grid;
 grid-template-columns:  120px auto;
-grid-gap: 30px;
+grid-gap: 10px;
 background-color: yellowgreen;
 padding: 25px;
 }
@@ -97,27 +98,103 @@ section, article {
   padding: 1rem;
   grid-gap: 10px;
 }
-h2 {
+div h2 {
   display: flex;
   justify-content: center;
-  flex-direction:flex-end;
+  flex-direction: column;
+  
+  
 }
 .container, section { 
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 20px;
+  gap: 4px;
   text-align: center;
   background-color: wheat;
+  padding: 15px;
 }
 .container .text {
   flex: 50;
   text-align: center;
+  align-items: center;
 }
 
-.container .center { 
-  flex: 0 0 200px;
+.container .center .p { 
+  flex: 200px;
   justify-content: center;
   flex-direction: center;
-  font-size: 30px;
+  align-items: flex-end;
+  background-color: 2rem clasfied wheat;
+  padding: 10px;
+  align-self: flex-end;
 }
+.container h2 {
+  display: grid;
+  align-self: flex-start;
+  font-size: 40px;
+  
+}
+.container .text {
+  align-items: flex-end;
+  font-size: 14px;
+}
+.galery-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.galery-flex h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.galery-flex {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure img {
+width: 80px;
+height: auto;
+flex-direction: row;
+}
+
+ 
+figcaption {
+  margin-top: 5px;
+  text-align: center;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  background-color: aqua;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialmedia  {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 10px;
+  padding: 10px;
+  
+  
+}
+
+
+
+
+
+
+
