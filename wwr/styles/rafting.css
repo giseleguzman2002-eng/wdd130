@@ -64,7 +64,7 @@ h1 {
 
 }
 header {
-  border: 10px clasified darkcyan;
+  border: 10px  darkcyan;
   background-color: darkturquoise;
   padding: 1px;
   display: flex;
@@ -123,9 +123,8 @@ div h2 {
 .container .center .p { 
   flex: 200px;
   justify-content: center;
-  flex-direction: center;
   align-items: flex-end;
-  background-color: 2rem clasfied wheat;
+  background-color: 2rem  wheat;
   padding: 10px;
   align-self: flex-end;
 }
