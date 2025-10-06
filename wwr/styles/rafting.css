@@ -35,11 +35,11 @@ nav, p, section, article {
 }
 
 .socialmedia a {
-    text-decoration: none; 
+  text-decoration: none; 
 }
 
 .hero {
-    position: relative; 
+  position: relative; 
 }
 
 .hero img {
@@ -59,8 +59,8 @@ h1 {
   color: #fff;
 }
 .hero article img {
-   float: right; 
-   width: 125px; 
+  float: left; 
+  width: 125px; 
 
 }
 header {
@@ -85,11 +85,11 @@ ul {
   }
 
 article {
-display:grid;
-grid-template-columns:  120px auto;
-grid-gap: 10px;
-background-color: yellowgreen;
-padding: 25px;
+  display:grid;
+  grid-template-columns:  120px auto;
+  grid-gap: 10px;
+  background-color: yellowgreen;
+  padding: 25px;
 }
 section, article { 
   display: flex;
@@ -161,9 +161,9 @@ figure {
 }
 
 figure img {
-width: 70px;
-height: auto;
-flex-direction: row;
+  width: 70px;
+  height: auto;
+  flex-direction: row;
 }
 
  
@@ -186,7 +186,7 @@ footer {
   grid-template-columns: 50px 50px 50px;
   grid-gap: 10px;
   padding: 10px;
-  text-decoration: none;
+  
   
   
 }
