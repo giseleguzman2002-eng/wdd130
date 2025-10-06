@@ -19,7 +19,7 @@ body {
 }
 
 header, main, footer {
-  width: 840px;
+  width: 1000px;
   margin: 0 auto; 
 }
 
@@ -39,7 +39,7 @@ nav, p, section, article {
 }
 
 .hero {
-  position: relative; 
+  position: relative;
 }
 
 .hero img {
@@ -58,10 +58,32 @@ h1 {
   background-color: var(--acent1-color); 
   color: #fff;
 }
+
 .hero article img {
   float: right; 
   width: 125px; 
+}
 
+article {
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background-color: yellowgreen;
+  padding: 20px;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 5px;
+  }
+article img {
+  grid-column: 2;
+  width: 100%;
+
+}
+article p {
+  max-width: 500px;
+  line-height: 1;
+  text-align: justify; 
 }
 header {
   border: 10px  darkcyan;
@@ -71,8 +93,6 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  
-
 }
 ul {
   display:grid;
@@ -82,16 +102,10 @@ ul {
   padding: 10px;
   text-align: center;
   border: 10px;
+  align-items: center;
   }
 
-article {
-  display:grid;
-  grid-template-columns:  120px auto;
-  grid-gap: 10px;
-  background-color: yellowgreen;
-  padding: 25px;
-}
-section, article { 
+.container .text { 
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
@@ -112,12 +126,13 @@ div h2 {
   gap: 4px;
   text-align: center;
   background-color: wheat;
-  padding: 15px;
+  padding: 20px;
 }
 .container .text {
   flex: 50;
   text-align: center;
   align-items: center;
+  font-size: 14px;
 }
 
 .container .center .p { 
@@ -133,31 +148,21 @@ div h2 {
   font-size: 40px;
   
 }
-.container .text {
-  align-items: flex-start;
-  font-size: 14px;
-}
-.galery-flex {
+.images-flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-.galery-flex h2 {
-  text-align: center;
-  font-size: 2rem;
-}
-.galery-flex {
-  display: flex;
+  justify-content:center;
   gap: 20px;
   flex-wrap: wrap;
-  justify-content: center;
+}
+.galery-grid {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
 }
 
 figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0;padding: 15px;
 }
 
 figure img {
@@ -168,7 +173,7 @@ figure img {
 
  
 figcaption {
-  margin-top: 50px;
+  margin-top: 5px;
   text-align: center;
   flex-direction: row;
 }
@@ -186,9 +191,6 @@ footer {
   grid-template-columns: 50px 50px 50px;
   grid-gap: 10px;
   padding: 10px;
-  
-  
-  
 }
 
 
