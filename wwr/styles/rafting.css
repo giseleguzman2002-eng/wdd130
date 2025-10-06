@@ -19,7 +19,7 @@ body {
 }
 
 header, main, footer {
-  width: 900px;
+  width: 840px;
   margin: 0 auto; 
 }
 
@@ -30,7 +30,7 @@ h1, h2 {
 
 nav, p, section, article {
   margin: 5px;
-  padding: 10px; 
+  padding: 15px; 
   
 }
 
@@ -123,8 +123,8 @@ div h2 {
 .container .center .p { 
   flex: 200px;
   justify-content: center;
+  background-color: 2rem clasified wheat;
   align-items: flex-end;
-  background-color: 2rem  wheat;
   padding: 10px;
   align-self: flex-end;
 }
@@ -135,7 +135,7 @@ div h2 {
   
 }
 .container .text {
-  align-items: flex-end;
+  align-items: flex-start;
   font-size: 14px;
 }
 .galery-flex {
@@ -162,14 +162,14 @@ figure {
 }
 
 figure img {
-width: 80px;
+width: 70px;
 height: auto;
 flex-direction: row;
 }
 
  
 figcaption {
-  margin-top: 5px;
+  margin-top: 50px;
   text-align: center;
   flex-direction: row;
 }
