@@ -29,13 +29,13 @@ h1, h2 {
 }
 
 nav, p, section, article {
-  margin: 5px;
-  padding: 15px; 
+  margin: 15px;
+  padding: 8px; 
   
 }
 
 .socialmedia a {
-  text-decoration: none; 
+    text-decoration: none; 
 }
 
 .hero {
@@ -58,7 +58,10 @@ h1 {
   background-color: var(--acent1-color); 
   color: #fff;
 }
-
+.hero article img {
+  float: right; 
+  width: 125px; 
+}
 article {
   display:flex;
   justify-content: center;
