@@ -92,12 +92,13 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
 ul {
   display:grid;
-  grid-template-columns: 2fr 4fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: seashell;
   grid-gap: 30px;
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   border: 10px;
   align-items: center;
