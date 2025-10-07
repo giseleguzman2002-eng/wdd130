@@ -18,8 +18,8 @@ body {
   color: var(--acent1-color);
 }
 
-header, main, footer {
-  width: 1000px;
+header, main, footer, body {
+  width: 840px;
   margin: 0 auto; 
 }
 
@@ -113,31 +113,38 @@ ul {
 div h2 {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  
-  
+  flex-direction: column;  
 }
-.container, section { 
+section {
+  max-width: 1000px;
+  margin: 5px;
+  padding: 1px;
+}
+.container { 
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 4px;
   text-align: center;
   background-color: wheat;
-  padding: 20px;
-}
+  border: 10px;
+  flex-direction: row;
+  
+  }
+
 .container .text {
-  flex: 50;
-  text-align: center;
+  flex: 50px;
+  text-align: justify;
   align-items: center;
   font-size: 14px;
+
 }
 
 .container .center .p { 
   flex: 200px;
   justify-content: center;
   align-items: flex-end;
-  padding: 10px;
+  padding: 80px;
   align-self: flex-end;
 }
 .container h2 {
@@ -157,10 +164,13 @@ div h2 {
   flex-direction:column;
   align-items: center;
   text-align: center;
+  background-color: wheat;
+  padding: 20px;
 }
 
 figure {
-  margin: 0;padding: 15px;
+  margin: 0;
+  padding: 15px;
 }
 
 figure img {
@@ -180,8 +190,14 @@ footer {
   display: flex;
   background-color: aqua;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 10px 30px;
+}
+.titele {
+  flex: 1;
+  text-align: center;
+  margin: 0;
 }
 
 .socialmedia  {
