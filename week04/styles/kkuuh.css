@@ -113,5 +113,11 @@ figure img {
 
 section figcaption {
   text-align: center;
-  margin-top: 5px;
+  margin-top:
+  5px;
 }
+
+
+.hero article img {
+  float: right; 
+  width: 125px; 
