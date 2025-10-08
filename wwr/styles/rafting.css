@@ -109,7 +109,6 @@ ul {
   display: flex;
   list-style: none;
   justify-content: center;
-  gap: none;
   padding: 10px;  
   }
 ul a {
