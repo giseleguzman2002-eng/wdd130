@@ -29,17 +29,18 @@ h1, h2 {
 }
 
 nav, p, section, article {
-  margin: 15px;
+  margin: 5px;
   padding: 8px; 
   
 }
 
 .socialmedia a {
-    text-decoration: none; 
+  text-decoration: none; 
 }
 
 .hero {
   position: relative;
+
 }
 
 .hero img {
@@ -50,7 +51,7 @@ nav, p, section, article {
 
 h1 {
   position: absolute; 
-  top: 20px; 
+  top:20px; 
   width: 100%;
   padding: 16px; 
   text-align: center;
@@ -62,17 +63,28 @@ h1 {
   float: right; 
   width: 125px; 
 }
-article {
-  display:flex;
+
+article  {
+  display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  background-color: yellowgreen;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
   padding: 20px;
   gap: 20px;
   max-width: 1000px;
   margin: 5px;
-  }
+;
+}
+article  {
+  position: absolute;
+  top: 150px;
+  width: 99%;
+  height: 35%;
+ 
+  
+}
 article img {
   grid-column: 2;
   width: 100%;
@@ -81,7 +93,7 @@ article img {
 article p {
   max-width: 500px;
   line-height: 1;
-  text-align: justify; 
+  text-align: justify;
 }
 header {
   border: 10px  darkcyan;
@@ -94,15 +106,22 @@ header {
 }
 
 ul {
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  background-color: seashell;
-  grid-gap: 30px;
-  padding: 5px;
-  text-align: center;
-  border: 10px;
-  align-items: center;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: none;
+  padding: 10px;  
   }
+ul a {
+  text-decoration: none;
+  color: blue;
+  border: 2px solid gray;
+  border-radius: 1px;
+  padding: 8px 15px;
+  background-color: white;
+  transition: 0.3s;
+}
+
 
 .container .text { 
   display: flex;

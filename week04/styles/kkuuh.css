@@ -121,3 +121,13 @@ section figcaption {
 .hero article img {
   float: right; 
   width: 125px; 
+
+
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: seashell;
+  gap: 30px;
+  padding: 5px;
+  text-align: center;
+  border: 10px;
+  align-items: center;
