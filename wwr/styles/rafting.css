@@ -219,7 +219,7 @@ footer {
   margin: 0;
 }
 
-.socialmedia  {
+.socialmedia {
   display: grid;
   grid-template-columns: 50px 50px 50px;
   grid-gap: 10px;
