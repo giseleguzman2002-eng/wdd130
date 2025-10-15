@@ -45,10 +45,7 @@ legend {
 label, input, button, select, textarea {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-label {
-    text-align: left;
-    padding-right: 1rem;
-}
+
 label {
     text-align: left;
     padding-right: 1rem;
