@@ -202,7 +202,6 @@ section {
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  flex-direction:center;
   margin-top: 5px;
 }
 .galery-grid {
@@ -222,7 +221,6 @@ figure {
 figure img {
   width: 70px;
   height:auto;
-  flex-direction: center;
   object-fit: cover;
 }
 
