@@ -1,5 +1,6 @@
 main {
-    width: 840px;
+    
+    max-width: 840px;
 }
 nav {
     background-color: darkblue;
@@ -21,7 +22,7 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
 }
 aside {
     width: 20em;
