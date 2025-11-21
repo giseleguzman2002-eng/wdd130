@@ -34,7 +34,6 @@ nav, p, section, article {
     position: relative;
 }
 .hero img {
-    display: 100%;
     width: block;
     height: auto;
 }
@@ -49,9 +48,9 @@ h1 {
     color: #4d2c01 ;
 }
     
-article {
+.hero article {
     position: absolute;
-    top: 290px;
+    top: 280px;
     width: 80%;
     left: 50%;
     transform: translateX(-50%);
@@ -66,6 +65,7 @@ article {
     color: white;
     padding: 8px;
     gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .hero article img {
     float: right;
