@@ -34,7 +34,7 @@ nav, p, section, article {
     position: relative;
 }
 .hero img {
-    width: block;
+    width: 100%;
     height: auto;
 }
 h1 {
