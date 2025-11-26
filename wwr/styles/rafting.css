@@ -173,7 +173,7 @@ figure {
 
 
 figure img {
-  display: ;
+  display: flex;
   width: 70px;
   height: auto;
   flex-direction: row;
