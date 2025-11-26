@@ -9,6 +9,11 @@
 header {
     background-color: var(--primary-color);
     color: var(--acent2-color);
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 * {
     margin: 0;
@@ -72,16 +77,15 @@ h1 {
     width: 125px;
 }
 h2 {
-    top: 20px;
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: var(--acent2-color) ;
+    background-color: var(--acent2-color);
     color: var(--secondary-color);
 }
 nav {
-    background-color: rgb(190, 171, 143);
-    padding: 1rem;
+    background-color: rgb(216, 197, 168);
+    padding: .01rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -93,4 +97,113 @@ nav a {
     font-size: 1rem;
     font-weight: 500;
     color: #1660ff;
+    border: 2px solid rgb(90, 85, 85);
+    border-radius: 1px;
+}
+.container .text { 
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 1rem;
+  grid-gap: 10px;
+}
+div h2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+}
+section {
+  max-width: 1000px;
+  margin: 5px;
+  padding: 1px;
+}
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+  text-align: center;
+  background-color: var(--acent2-color);
+  flex-direction: row;
+  padding: 10px;
+  
+  
+  }
+
+.container .text {
+  flex: 50px;
+  text-align: justify;
+  align-items: center;
+  font-size: 14px;
+  justify-content: flex-end;
+
+}
+
+.container .center .p { 
+  flex: 200px;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 80px;
+  align-self: flex-end;
+}
+.container h2 {
+  display: grid;
+  align-self: flex-start;
+  font-size: 40px;
+  
+}
+.images-flex {
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.galery-grid {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--acent2-color) ;
+  padding: 20px;
+  }
+figure {
+  margin: 0;
+  padding: 15px;
+}
+
+
+figure img {
+  display: ;
+  width: 70px;
+  height: auto;
+  flex-direction: row;
+}
+
+ 
+figcaption {
+  margin-top: 5px;
+  text-align: center;
+  flex-direction: row;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(216, 197, 168);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 30px;
+}
+.titele {
+  text-align: center;
+  margin: 0;
+}
+.socialmedia  {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-gap: 30px;
+}
+.socialmedia a {
+  border: none;
+  background: none;
 }
