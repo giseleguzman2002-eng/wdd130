@@ -32,9 +32,7 @@ nav, p, section, article {
     margin: 1px;
     padding: 5px;
 }
-.socialmedia a {
-    text-decoration: none;
-}
+
 .hero {
     position: relative;
 }
@@ -100,13 +98,6 @@ nav a {
     border: 2px solid rgb(90, 85, 85);
     border-radius: 1px;
 }
-.container .text { 
-  display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
-  padding: 1rem;
-  grid-gap: 10px;
-}
 div h2 {
   display: flex;
   justify-content: center;
@@ -137,6 +128,14 @@ section {
   font-size: 14px;
   justify-content: flex-end;
 
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 1rem;
+  grid-gap: 10px;
+
+
+  
 }
 
 .container .center .p { 
@@ -206,4 +205,5 @@ footer {
 .socialmedia a {
   border: none;
   background: none;
+  text-decoration: none;
 }
