@@ -128,8 +128,6 @@ section {
   font-size: 14px;
   justify-content: flex-end;
 
-  display: flex;
-  justify-content: center;
   flex-direction: row-reverse;
   padding: 1rem;
   grid-gap: 10px;
