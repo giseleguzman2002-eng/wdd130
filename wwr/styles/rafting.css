@@ -68,7 +68,7 @@ h1 {
     color: white;
     padding: 8px;
     gap: 20px;
-    font-family: var(--heading-font);
+    font-family: var(--body-font);
 }
 .hero article img {
     float: right;
