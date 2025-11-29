@@ -7,14 +7,17 @@
     --body-font: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color: var(--primary-color);
-    color: var(--acent2-color);
-    padding: 1px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
+
+  background-color: var(--primary-color);
+  color: var(--acent2-color);
+  padding: 1px;
+
+  display: grid;
+  grid-auto-flow: column;     
+  justify-content: space-around;
+  align-items: center; 
+}       
+
 * {
     margin: 0;
     padding: 0;
