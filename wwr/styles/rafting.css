@@ -153,12 +153,7 @@ section {
   font-size: 40px;
   
 }
-.images-flex {
-  display: flex;
-  justify-content:center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+
 .galery-grid {
   display: flex;
   flex-direction:column;
@@ -192,10 +187,7 @@ figure img {
 
 
 /*caontact us*/
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
+
 body {
   width: 840px;
   margin: 0 auto;
@@ -323,16 +315,6 @@ button {
   cursor: pointer;
 }
 
-div h2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;  
-}
-section {
-  max-width: 1000px;
-  margin: 5px;
-  padding: 1px;
-}
 .galery-grid h2 {
   display: grid;
   align-self: center;
@@ -347,25 +329,9 @@ section {
   flex-wrap: wrap;
   margin-top: 5px;
 }
-.galery-grid {
-  display: flex;
-  flex-direction:column;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
-}
-/*vlñlmfgbñl*/
-figure {
-  margin: 0;
-  padding: 20px;
-}
 
-figure img {
-  width: 70px;
-  height:auto;
-  object-fit: cover;
-}
- 
+/*vlñlmfgbñl*/
+
 figcaption {
   margin-top: 5px;
   text-align: center;
