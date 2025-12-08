@@ -185,9 +185,6 @@ figure img {
 }
 
 
-
-/*caontact us*/
-
 body {
   width: 840px;
   margin: 0 auto;
@@ -360,3 +357,47 @@ footer {
   background: none;
   text-decoration: none;
 }
+
+/*Home*/
+.hero1 {
+    position: relative;
+}
+.hero1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.8;
+  background-color: transparent ;
+  color: #ffffff ;
+  font-size: 45px;
+}
+    
+.hero1 article {
+  position: absolute;
+  top: 180px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+
+  
+  
+  background-color: rgb(9, 77, 65); 
+  opacity: 0.7;
+  color: white;
+  padding: 60px;
+  font-family: var(--heading-font);
+  font-size: 20px;
+}
+
+
+
+
+ 
