@@ -257,7 +257,7 @@ form {
   margin:0 auto;
   border: 1px solid rgb(0 0 0 / 0.1);
   border-radius: 0.5rem;
-  background-color: blanchedalmond;
+  background-color: rgb(255, 235, 206);
   display: grid;
 }
 fieldset {
@@ -397,7 +397,58 @@ h1 {
   font-size: 20px;
 }
 
+.home-container form { 
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  margin:0 auto;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 0.5rem;
+  background-color: rgb(227, 255, 227);
+  display: grid;
+}
 
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap:350px;
+  max-width: 100px;
+  margin: 15px auto;
+  padding: 10px;
+}
+.hero1 form {
+  padding: 10px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: rgb(44, 139, 184);
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+.hero1 a {
+  text-decoration: none;
+  color: rgba(240, 239, 239, 0.808);
+}
+.images-home {
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.images-home figure {
+  margin: 0;
+  padding: 70px;
+}
+
+
+.images-home figure img {
+  display: flex;
+  width: 300px;
+  height: auto;
+  flex-direction: column-reverse;
+}
 
 
  
