@@ -431,23 +431,27 @@ h1 {
   color: rgba(240, 239, 239, 0.808);
 }
 .images-home {
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 50px;
 }
-.images-home figure {
-  margin: 0;
-  padding: 70px;
-}
-
 
 .images-home figure img {
   display: flex;
   width: 300px;
-  height: auto;
+  height: 310px;
   flex-direction: column-reverse;
+}
+.images-home a {
+  text-decoration: none;
+  color: white;
+}
+.images-home form {
+  background-color: #16656b;
+  font-family: var(--body-font);
 }
 
 
