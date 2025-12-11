@@ -556,7 +556,39 @@ align-items: center;
   padding: 3px 6px;
   border-radius: 5px;
 }
-  
+.travel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: 100%;
+  background-color: var(--acent2-color);
+  gap: 45px;
+  justify-items: center;
+  padding: 35px;
+}
+.travel img {
+width: 200px;
+height: 380px;
+}
+.travel img {
+  transition:  box-shadow 0.3s ease, transform 0.3s ease;
+}
+.travel img:hover {
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+transform: scale(1.03);
+}
+
+.travel-info h2 {
+  color: #243318;
+  font-size: 33px;
+}
+.travel figcaption {
+  font-size: 15px;
+  align-items: center;
+  background-color: rgb(223, 223, 164);
+  padding: 15px;
+}
+
   
 
   
