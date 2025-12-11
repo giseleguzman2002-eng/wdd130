@@ -367,7 +367,7 @@ footer {
   width: 100%;
   height: auto;
 }
-h1 {
+.hero1 h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -395,6 +395,7 @@ h1 {
   padding: 25px;
   font-family: var(--heading-font);
   font-size: 20px;
+  text-align: center;
 }
 
 .home-container form { 
@@ -453,6 +454,112 @@ h1 {
   background-color: #16656b;
   font-family: var(--body-font);
 }
+
+/*trips*/
+.images-trips {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+width: 100%;
+background-color: var(--acent2-color);
+gap: 45px;
+justify-items: center;
+padding: 35px;
+}
+.images-trips img {
+width: 195px;
+height: 160px;
+}
+.images-trips figure {
+display: flex;
+text-align: center;
+flex-direction: column;
+align-items: center;
+
+}
+.images-trips a {
+  text-decoration: none;
+  color: #243318;
+}
+.images-trips figcaption {
+  transition: 0.3s ease;
+
+}
+.images-trips figcaption:hover {
+  background-color: #b7eef1;
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+.galery-grid1 h2 {
+  font-size: 30px;
+  color: #4d2c01;
+}
+.hero2 {
+  position: relative;
+}
+.hero2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.hero2 h1 {
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.8;
+  background-color: transparent ;
+  color: #fffbbc ;
+  font-size: 45px;
+}
+    
+.hero2 article {
+  position: absolute;
+  top: 290px;
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+
+  
+  background-color: rgb(16, 133, 111); 
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-family: var(--heading-font);
+  font-size: 20px;
+  text-align: center;
+}
+.hero2 form {
+  padding: 10px;
+  width: 170px;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+  background-color: #456be9;
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+
+.hero2 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.hero2 form {
+  transition: 0.3s ease;
+
+}
+.hero2 form:hover {
+  background-color: #8e37f1;
+  cursor: pointer;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+  
+  
+
+  
 
 
  

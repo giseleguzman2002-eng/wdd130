@@ -342,4 +342,14 @@ hllhlhk
   border-radius: none;
   cursor: pointer ;
 }
- 
+ }
+  .images-trips a {
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    color: #243318;
+
+  }
+  .images-trips figure {
+    
+  }
